@@ -88,8 +88,7 @@ main h2 {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   color: var(--cor1);
   padding: 1em 0;
   text-shadow: 3px 2px 0px #00000049;
@@ -141,6 +140,14 @@ footer {
 
 .link-creditos:hover {
   text-decoration: underline;
+}
+
+.voltar-inicio {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 2em;
+  height: 50px;
+  transition: 0.5s;
 }
 
 .p-footer {
