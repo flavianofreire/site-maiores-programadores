@@ -45,58 +45,22 @@ header > h1 {
 }
 
 nav {
-  display: inline-block;
-  flex-direction: column;
-  padding: 10px;
-  margin: 5px 0;
+  margin-bottom: 1.5em;
 }
 
-.nav2:hover {
-  background-color: var(--cor5);
-  height: 10em;
-  width: 23em;
-  margin-left: 3em;
-  transition-duration: 0.3s;
-  border-radius: 0.5em;
-  margin: 1em;
-  display: block;
-}
-
-.nav2 {
-  display: inline;
-}
-
-a {
-  color: var(--cor1);
-  text-decoration: none;
-}
-
-.menu:hover li {
-  color: var(--cor6);
-  display: block;
-}
-
-ul {
-  list-style-type: none;
-  columns: 2;
-  text-align: center;
-}
-
-.nav2:hover span {
-  color: var(--cor1);
-}
-
-li {
-  margin: 0.5em;
-  display: none;
-  text-align: center;
-}
-
-span {
+.links-principais {
   color: var(--cor5);
-  display: block;
-  cursor: pointer;
-  font: normal normal 1.2em var(--font2);
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  font-size: larger;
+  padding: 1em;
+}
+
+.links-principais:hover {
+  background-color: var(--cor5);
+  color: #05386b;
+  border-radius: 1em;
 }
 
 main {
@@ -115,14 +79,11 @@ main h1 {
   color: var(--cor1);
   text-align: center;
   font-family: var(--font1);
+  font-size: 2em;
 }
 
 main h2 {
-  text-align: center;
-  font-family: var(--font1);
-}
-
-main h3 {
+  text-align: start;
   font-family: var(--font1);
 }
 
@@ -164,13 +125,22 @@ aside {
   justify-content: center;
   background-color: var(--cor5);
   box-shadow: 10px 10px 8px #888;
-  max-width: 900px;
+  max-width: 700px;
   margin: auto;
 }
 
 footer {
   background-color: var(--cor6);
   margin: 2em 0 0 0;
+}
+
+.link-creditos {
+  color: var(--cor6);
+  text-decoration: none;
+}
+
+.link-creditos:hover {
+  text-decoration: underline;
 }
 
 .p-footer {
@@ -181,6 +151,7 @@ footer {
 .a-footer {
   color: var(--cor3);
   font-style: oblique;
+  text-decoration: none;
 }
 
 .a-footer:hover {
