@@ -108,6 +108,7 @@ picture {
   display: flex;
   justify-content: center;
   margin: 1em 0;
+  width: 100%;
 }
 
 aside {
@@ -117,6 +118,7 @@ aside {
 .video-h3 {
   margin: 1em;
   padding-bottom: 1em;
+  text-align: center;
 }
 
 .video-ada {
