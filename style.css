@@ -56,13 +56,16 @@ nav {
   font-family: "Courier New", Courier, monospace;
   text-decoration: none;
   font-size: larger;
-  padding: 1em;
+  padding: 0.7em;
+  padding-right: 1.4em;
+  margin: 1em;
 }
 
 .links-principais:hover {
   background-color: var(--cor5);
   color: #05386b;
-  border-radius: 1em;
+  border-radius: 0 1em 0 1em;
+  transition-duration: 0.2s;
 }
 
 main {
@@ -149,9 +152,14 @@ footer {
 .icone {
   display: flex;
   flex-direction: row;
-  margin: 2em;
-  height: 50px;
+  margin: 3em 2em;
+  height: 5vh;
   transition: 0.5s;
+}
+
+.icone:hover {
+  height: 6vh;
+  margin-bottom: 0;
 }
 
 .p-footer {
